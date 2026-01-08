@@ -64,7 +64,7 @@ nav {
 }
 
 #banner {
-  background-image: url("/assets/hero-bg.png");
+  background-image: url("./assets/hero-bg.png");
   height: 674px;
   padding: 115px 120px 180px 120px;
   background-size: cover;
