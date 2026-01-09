@@ -208,6 +208,7 @@ main {
   font-weight: 700;
   color: #001931;
   padding-bottom: 16px;
+  text-transform: capitalize;
 }
 
 .solution-content p {
@@ -245,6 +246,7 @@ main {
   font-weight: 700;
   color: #001931;
   padding-bottom: 16px;
+  text-transform: capitalize;
 }
 
 #more-action .content p {
@@ -279,7 +281,6 @@ footer {
   padding: 0 107px 16px 0;
 }
 
-
 .footer-links ul {
   list-style: none;
   display: flex;
@@ -299,8 +300,13 @@ footer {
   padding: 8px 0;
 }
 
+.hr-line {
+  border-bottom: 1px solid #2f5f96a4;
+  padding-top: 82px;
+}
+
 footer p {
   font-size: 16px;
   color: #fff;
-  padding-top: 114px
+  padding-top: 30px
 }
