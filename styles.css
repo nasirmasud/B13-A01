@@ -30,11 +30,9 @@
   border: none;
   border-radius: 6px;
   font-size: 16px;
-  font-weight: 600;
   color: #fff;
   cursor: pointer;
 }
-
 
 /* Main Styles */
 header {
@@ -113,4 +111,148 @@ nav {
   display: flex;
   justify-content: center;
   gap: 16px;
+}
+
+.btn-clear {
+  background-color: transparent;
+  border: 2px solid #fff;
+  color: #fff;
+}
+
+main {
+  padding-bottom: 120px;
+}
+
+#features {
+  text-align: center;
+}
+
+#features .section-title h2 {
+  padding: 50px 0 16px 0;
+  font-size: 48px;
+  font-weight: 700;
+  color: #001931;
+  text-transform: capitalize;
+}
+
+#features .section-title p {
+  font-size: 16px;
+  color: #627382;
+  padding-bottom: 44px;
+}
+
+.section-cards {
+  display: flex;
+  justify-content: space-between;
+  gap: 24px;
+  padding-bottom: 120px;
+}
+
+.section-card-item {
+  padding: 24px;
+  width: auto;
+  height: 300;
+  border-radius: 8px;
+  box-shadow: 0 0 5px 0;
+}
+
+.round-btn {
+  border-radius: 50px;
+  height: 60px;
+  width: 60px;
+  background-color: #f95555;
+  border: none;
+  margin: 55px 107px 16px 107px;
+}
+
+.section-card-item h3 {
+  font-size: 24px;
+  font-weight: 600;
+  color: #001931;
+  text-align: center;
+  padding-bottom: 16px;
+}
+
+.section-card-item p {
+  font-size: 16px;
+  color: #627382;
+  text-align: center;
+  padding-bottom: 21px;
+}
+
+#solution {
+  display: flex;
+  align-items: start;
+  padding-bottom: 120px;
+}
+
+#solution .ideas-img {
+  max-width: 600px;
+  height: auto;
+}
+
+.solution-content {
+  max-width: 700px;
+  margin: 111px 0 111px 60px;
+}
+
+.solution-content .top {
+  font-size: 16px;
+  text-transform: uppercase;
+  color: #30B868;
+  padding-bottom: 16px;
+}
+
+.solution-content h2 {
+  font-size: 48px;
+  font-weight: 700;
+  color: #001931;
+  padding-bottom: 16px;
+}
+
+.solution-content p {
+  font-size: 16px;
+  color: #627382;
+  padding-bottom: 40px;
+}
+
+.solution-content ul {
+  list-style: none;
+}
+
+.solution-content ul li {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 16px;
+  color: #000;
+  padding-bottom: 16px;
+}
+
+#more-action {
+  border-radius: 12px;
+  padding: 80px 40px;
+  background-color: #F7F6F2;
+  text-align: center;
+}
+
+#more-action .content {
+  margin: 80px 40px;
+}
+
+#more-action .content h3 {
+  font-size: 40px;
+  font-weight: 700;
+  color: #001931;
+  padding-bottom: 16px;
+}
+
+#more-action .content p {
+  font-size: 16px;
+  color: #627382;
+  padding-bottom: 16px;
+}
+
+.bottom {
+  margin: 16px 0;
 }
